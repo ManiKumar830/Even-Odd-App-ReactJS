@@ -1,0 +1,64 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  height: 50%;
+  width: 40%;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+.type-para {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 23px;
+}
+.buttonEl {
+  border-width: 0px;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  color: #0f172a;
+  border-radius: 8px;
+  padding: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.para {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+@media (max-width: 767px) {
+  .heading {
+    font-size: 24px;
+  }
+  .type-para {
+    font-size: 19px;
+  }
+  .para {
+    font-size: 10px;
+  }
+  .buttonEl {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .inner-container {
+    width: 80%;
+  }
+}
